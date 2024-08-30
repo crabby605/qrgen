@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>HC QR gen</title>
+  <title>QR Code Generator</title>
 </head>
 <body>
+  <input type="text" id="data" placeholder="Enter data here">
+  <input type="number" id="size" placeholder="Enter QR code size (px)">
+  <button onclick="generateQRCode()">Generate QR Code</button>
+  <img id="qrcode" alt="QR Code">
 </body>
 </html>
