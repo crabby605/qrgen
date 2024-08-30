@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a href="https://hackclub.com/">
+        <img style="position: absolute; top: 0; left: 10px; border: 0; width: 256px; z-index: 999;" 
+        src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="Hack Club"/>
+    </a>
+
     <div class="container">
         <h1>QR Code Generator</h1>
         <input type="text" id="text-input" placeholder="Enter text or URL">
         <button id="generate-btn">Generate QR Code</button>
+        <button id="download-btn" style="display: none;">Download QR Code</button>
         <div id="qr-code"></div>
     </div>
     <script src="script.js"></script>
